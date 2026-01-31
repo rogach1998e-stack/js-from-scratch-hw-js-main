@@ -8,7 +8,7 @@
 // your code
 let factorial = 1;
 let i = 1;
-let n = i +prompt("10");
+let n = 10;
 while (i <= n) {
   factorial *= i
 i += 1
