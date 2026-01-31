@@ -4,9 +4,9 @@
 // your code
 let sum = 0;
 let start = 1;
-let end = 20;
+let n = 20;
 let current = start;
-while (current <= end) {
+while (current <= n) {
 	sum += current;
 	current++
 }
