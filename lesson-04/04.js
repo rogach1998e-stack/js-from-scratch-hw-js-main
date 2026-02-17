@@ -21,5 +21,5 @@ function doubleEachCharacter(str) {
 	return result;
 }
 
-console.log(doubleEachCharacter('Hello'));
+console.log(doubleEachCharacter('Helo'));
 
