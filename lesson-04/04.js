@@ -13,13 +13,13 @@
 */
 
 function doubleEachCharacter(str) {
-	let result = ' ' ;
+	let result = '';
 	for (let i = 0; i < str.length; i++) {
-		result = result + str[i] + str[i];
+		result += str[i] + str[i];
 		
 	}
 	return result;
 }
 
-console.log(doubleEachCharacter('Helo'));
+console.log(doubleEachCharacter('hello'));
 
