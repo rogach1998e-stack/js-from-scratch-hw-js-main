@@ -4,7 +4,7 @@
  */
 
 function isNumeric(str) {
-  // your code
+  return isFinite(parseFloat(str))
 }
 
 // console.log(isNumeric("123")) // Ожидаемый результат: true
